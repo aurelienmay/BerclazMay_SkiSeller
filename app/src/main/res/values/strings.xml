@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BerclazMay_SkiSeller</string>
+    <string name="action_home">action_home</string>
+    <string name="action_products">action_products</string>
+    <string name="action_findUs">action_findUs</string>
+    <string name="action_settings">action_settings</string>
 </resources>
