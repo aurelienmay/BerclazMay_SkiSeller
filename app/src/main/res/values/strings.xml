@@ -2,6 +2,16 @@
     <string name="app_name">BerclazMay_SkiSeller</string>
     <string name="action_home">action_home</string>
     <string name="action_products">action_products</string>
+    <string name="action_order">action_order</string>
     <string name="action_findUs">action_findUs</string>
     <string name="action_settings">action_settings</string>
+
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_home">Home</string>
+    <string name="bottom_navigation_menu_products">Products</string>
+    <string name="bottom_navigation_menu_order">Order</string>
+    <string name="bottom_navigation_menu_findus">Find Us</string>
+    <string name="bottom_navigation_menu_settings">Settings</string>
+
+
 </resources>
