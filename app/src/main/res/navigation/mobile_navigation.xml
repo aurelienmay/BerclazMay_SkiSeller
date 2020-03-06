@@ -22,4 +22,11 @@
         android:name="com.example.berclazmay_skiseller.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_findus"
+        android:name="com.example.berclazmay_skiseller.ui.findus.FindusFragment"
+        android:label="@string/title_findus"
+        tools:layout="@layout/fragment_findus" />
+
 </navigation>
