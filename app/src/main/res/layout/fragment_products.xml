@@ -24,7 +24,7 @@
         tools:visibility="invisible" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_displayProducts"
         android:layout_width="259dp"
         android:layout_height="57dp"
         android:layout_marginBottom="244dp"
