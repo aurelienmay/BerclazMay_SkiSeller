@@ -1,4 +1,4 @@
-package com.example.berclazmay_skiseller.ui.dashboard;
+package com.example.berclazmay_skiseller.ui.products;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.berclazmay_skiseller.R;
 
-public class DashboardFragment extends Fragment {
+public class ProductsFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private ProductsViewModel productsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        productsViewModel =
+                ViewModelProviders.of(this).get(ProductsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_products, container, false);
+        final TextView textView = root.findViewById(R.id.text_home);
+        productsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

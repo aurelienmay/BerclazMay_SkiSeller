@@ -1,4 +1,4 @@
-package com.example.berclazmay_skiseller.ui.notifications;
+package com.example.berclazmay_skiseller.ui.findUs;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.berclazmay_skiseller.R;
 
-public class NotificationsFragment extends Fragment {
+public class FindUsFragment extends Fragment {
 
-    private NotificationsViewModel notificationsViewModel;
+    private FindUsViewModel findUsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        notificationsViewModel =
-                ViewModelProviders.of(this).get(NotificationsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_notifications, container, false);
-        final TextView textView = root.findViewById(R.id.text_notifications);
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        findUsViewModel =
+                ViewModelProviders.of(this).get(FindUsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_findus, container, false);
+        final TextView textView = root.findViewById(R.id.text_findUs);
+        findUsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

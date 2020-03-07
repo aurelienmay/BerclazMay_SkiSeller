@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">BerclazMay</string>
+    <string name="app_name">Ski seller</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Products</string>
-    <string name="title_notifications">My Orders</string>
-    <string name="title_findus">Find us</string>
+    <string name="title_products">Products</string>
+    <string name="title_findUs">Find us</string>
+    <string name="title_settings">Settings</string>
 </resources>

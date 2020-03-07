@@ -1,4 +1,4 @@
-package com.example.berclazmay_skiseller.ui.findus;
+package com.example.berclazmay_skiseller.ui.settings;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.berclazmay_skiseller.R;
 
-public class FindUsFragment extends Fragment {
+public class SettingsFragment extends Fragment {
 
-    private com.example.berclazmay_skiseller.ui.findus.FindUsViewModel findUsViewModel;
+    private SettingsViewModel settingsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        findUsViewModel =
-                ViewModelProviders.of(this).get(com.example.berclazmay_skiseller.ui.findus.FindUsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_findus, container, false);
-        final TextView textView = root.findViewById(R.id.text_findUs);
-        findUsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        settingsViewModel =
+                ViewModelProviders.of(this).get(SettingsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_settings, container, false);
+        final TextView textView = root.findViewById(R.id.text_settings);
+        settingsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
