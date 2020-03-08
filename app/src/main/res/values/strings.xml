@@ -8,6 +8,10 @@
     <string name="position">Share your position</string>
     <string name="displayProducts">Display products</string>
     <string name="brands">Brands</string>
+    <string name="newsletter">Newsletter</string>
+    <string name="discounts">Show products discounts</string>
+    <string name="rossignol">Rossignol / 180-189cm / 600.-</string>
+    <string name="showDetails">Details</string>
 
     <string-array name="skiBrands">
         <item>All brands</item>

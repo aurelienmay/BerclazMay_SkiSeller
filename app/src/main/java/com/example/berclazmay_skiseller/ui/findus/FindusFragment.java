@@ -1,6 +1,7 @@
 package com.example.berclazmay_skiseller.ui.findus;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,6 +35,8 @@ public class FindUsFragment extends Fragment {
                 textView.setText(s);
             }
         });
+
+
         return root;
     }
 }
