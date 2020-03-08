@@ -16,12 +16,12 @@ import com.example.berclazmay_skiseller.R;
 
 public class FindUsFragment extends Fragment {
 
-    private com.example.berclazmay_skiseller.ui.findUs.FindUsViewModel findUsViewModel;
+    private com.example.berclazmay_skiseller.ui.findus.FindUsViewModel findUsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         findUsViewModel =
-                ViewModelProviders.of(this).get(com.example.berclazmay_skiseller.ui.findUs.FindUsViewModel.class);
+                ViewModelProviders.of(this).get(com.example.berclazmay_skiseller.ui.findus.FindUsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_findus, container, false);
         final TextView textView = root.findViewById(R.id.text_findUs);
         findUsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {

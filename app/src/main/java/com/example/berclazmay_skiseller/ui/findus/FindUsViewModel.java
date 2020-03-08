@@ -1,4 +1,4 @@
-package com.example.berclazmay_skiseller.ui.findUs;
+package com.example.berclazmay_skiseller.ui.findus;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
