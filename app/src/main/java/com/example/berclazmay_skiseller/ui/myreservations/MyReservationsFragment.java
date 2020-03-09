@@ -19,7 +19,6 @@ public class MyReservationsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
         View root = inflater.inflate(R.layout.fragment_myreservations, container, false);
         return root;
     }
