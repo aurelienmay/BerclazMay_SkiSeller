@@ -2,6 +2,7 @@
     <string name="app_name">Ski seller</string>
     <string name="title_home">Home</string>
     <string name="title_products">Products</string>
+    <string name="title_myReservation">My reservations</string>
     <string name="title_findUs">Find us</string>
     <string name="title_settings">Settings</string>
     <string name="notifications">Notifications</string>

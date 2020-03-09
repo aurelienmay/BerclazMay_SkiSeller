@@ -18,6 +18,12 @@
         tools:layout="@layout/fragment_products" />
 
     <fragment
+        android:id="@+id/navigation_myReservations"
+        android:name="com.example.berclazmay_skiseller.ui.myreservations.MyReservationsFragment"
+        android:label="@string/title_myReservation"
+        tools:layout="@layout/fragment_myreservations" />
+
+    <fragment
         android:id="@+id/navigation_findUs"
         android:name="com.example.berclazmay_skiseller.ui.findus.FindUsFragment"
         android:label="@string/title_findUs"

@@ -25,9 +25,9 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/showDetails"
-        android:textColor="#fffafa"
+        android:textColor="@color/font_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -12,6 +12,11 @@
         android:title="@string/title_products" />
 
     <item
+        android:id="@+id/navigation_myReservations"
+        android:icon="@drawable/ic_my_reservations"
+        android:title="@string/title_myReservation" />
+
+    <item
         android:id="@+id/navigation_findUs"
         android:icon="@drawable/ic_findus_black_24dp"
         android:title="@string/title_findUs" />
